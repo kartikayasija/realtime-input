@@ -29,3 +29,15 @@ body{
 .display div label{
   display: none;
 }
+
+.button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10% auto;
+}
+
+.button button{
+  padding: 10px 20px;
+
+}
