@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  background-color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+}
+.input{
+  display: block;
+}
+.input div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin:20px;
+}
+.input div label{
+  width: 70px;
+  font-weight: 550;
+}
+.input div input[type='text']{
+  background-color: rgb(255, 247, 237);
+  padding: 10px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.429);
+  border-radius: 10px;
+}
+.display div input{
+  display: none;
+}
+.display div label{
+  display: none;
+}
